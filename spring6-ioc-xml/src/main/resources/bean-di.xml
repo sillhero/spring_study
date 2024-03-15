@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        <!--使用set注入-->
+<!--    <bean id="book" class="com.atguigu.spring6.iocXML.di.Book">-->
+<!--        &lt;!&ndash;相当于调用对象 setter方法&ndash;&gt;-->
+<!--        <property name="bname" value="hello world">-->
+<!--        </property>-->
+<!--        <property name="author" value="mjc"/>-->
+<!--    </bean>-->
+    <!--构造器注入-->
+    <bean id="bookCon" class="com.atguigu.spring6.iocXML.di.Book">
+        <!--相当于调用对象 setter方法-->
+        <constructor-arg name="bname" value="hello"/>
+        <constructor-arg name="author" value="mjc"/>
+<!--        <property name="others">-->
+<!--            <null/>-->
+<!--        </property>-->
+        <property name="others" value="&lt;&gt;">
+
+        </property>
+    </bean>
+</beans>
