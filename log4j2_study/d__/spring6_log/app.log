@@ -1,0 +1,9 @@
+2024-02-29 at 13:10:01 CST DEBUG org.springframework.context.support.AbstractApplicationContext 630 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4b7e96a
+2024-02-29 at 13:10:01 CST DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 402 doLoadBeanDefinitions - Loaded 1 bean definitions from class path resource [bean.xml]
+2024-02-29 at 13:10:01 CST DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user'
+2024-02-29 at 14:43:36 CST DEBUG org.springframework.context.support.AbstractApplicationContext 630 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5c8504fd
+2024-02-29 at 14:43:36 CST DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 402 doLoadBeanDefinitions - Loaded 1 bean definitions from class path resource [bean.xml]
+2024-02-29 at 14:43:36 CST DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user'
+2024-03-02 at 12:28:37 CST DEBUG org.springframework.context.support.AbstractApplicationContext 630 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5c8504fd
+2024-03-02 at 12:28:37 CST DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 402 doLoadBeanDefinitions - Loaded 1 bean definitions from class path resource [bean.xml]
+2024-03-02 at 12:28:37 CST DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user'
